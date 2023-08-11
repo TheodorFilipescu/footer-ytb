@@ -1,0 +1,238 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  height: auto;
+  overflow-x: hidden;
+  background-color: #111;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #d010e9;
+}
+
+::selection {
+  color: #fff;
+  background: #d010e9;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+  background: #fffeff;        /* color of the tracking area */
+  
+  }
+  
+  body::-webkit-scrollbar-thumb {
+  background-color: #d010e9;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #b00fc5;  /* creates padding around scroll thumb */
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+  background-color: #dd27f5;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #b00fc5;  /* creates padding around scroll thumb */
+  }
+
+/***************/
+
+/* font-family: 'Staatliches', cursive; */
+
+/***************/
+
+.container-header-upper {
+  height: 70vh;
+}
+
+/******/
+
+.container-footer-total {
+  height: 300px;
+  background-color: #333;
+}
+
+.container-footer {
+  height: 100%;
+  max-width: 1550px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-footer-elements {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.container-footer-el-1 {
+  height: 100%;
+  width: 30%;
+/*   background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-footer-el-2 {
+  height: 100%;
+  width: 30%;
+/*   background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-footer-el-3 {
+  height: 100%;
+  width: 30%;
+/*   background-color: yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container-footer-el-1-img-asp {
+  height: auto;
+  width: 120px;
+  pointer-events: none;
+}
+
+.container-footer-el-1-h2-asp {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container-footer-el-1-fa-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container-footer-el-1-fa-div-a-asp {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.container-footer-el-1-fa-div-a-asp:hover {
+  color: #d010e9;
+  transition: 0.3s;
+}
+
+.container-footer-el-2-h2-asp {
+  text-align: center;
+  color: #fff;
+  font-size: 26px;
+}
+
+.container-footer-el-2-a-asp {
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 4px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container-footer-el-2-a-asp:hover {
+  color: #d010e9;
+  transition: 0.3s;
+}
+
+/**********************************************/
+
+.container-und-footer-total {
+  height: 60px;
+  background-color: #525252;
+}
+
+.container-und-footer {
+  height: 100%;
+  max-width: 1550px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-und-footer-elements {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+
+.container-und-footer-el-h2-asp1 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  font-weight: 500;
+}
+
+.container-und-footer-el-h2-asp2 {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  font-weight: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************************************/
+
+@media screen and (max-width: 650px) {
+  .container-footer-elements {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .container-footer-el-1 {
+    width: 100%;
+  }
+
+  .container-footer-el-2 {
+    width: 100%;
+  }
+
+  .container-footer-el-3 {
+    width: 100%;
+  }
+
+  .container-footer-total {
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
